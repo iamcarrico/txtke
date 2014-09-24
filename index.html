@@ -1,0 +1,12 @@
+---
+layout: default
+title: Tau Kappa Epsilon - Gamma Upsilon Chapter
+---
+
+<div id="home">
+  <h1>TKE News</h1>
+  {% for post in site.categories.active %}
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.content }}</p>
+  {% endfor %}
+</div>

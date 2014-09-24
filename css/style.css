@@ -1,0 +1,253 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img {
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+/*------------------------------
+ Typography
+------------------------------*/
+
+body, h1, h2, h3, p, i, li { font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+
+h1 {
+	color: #990000;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 42px;
+}
+
+h2 {
+	color: #858585;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 36px;
+}
+
+p {
+	color: #ffffff;
+	line-height: 18px;
+	margin-bottom: 9px;
+}
+
+a {
+	color: #990000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*------------------------------
+ Basic Layout
+------------------------------*/
+
+html {
+	background: url(../images/footer-background.gif) #666666 repeat-x bottom center;
+}
+
+body {
+	background: url(../images/header-background.gif) repeat-x top center;
+}
+
+#container {
+	margin: 0 auto;
+	width: 750px;
+}
+
+#header {
+	float: left;
+	height: 150px;
+	position: relative;
+	width: 100%;
+}
+
+#page {
+	float: left;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+#sidebar {
+	float: left;
+	width: 250px;
+}
+
+#content {
+	float: left;
+	padding-top: 17px;
+	width: 490px;
+}
+
+#footer {
+	clear: both;
+	height: 29px;
+}
+
+/*------------------------------
+ Header Elements
+------------------------------*/
+#site-title {
+	background: url(../images/logo.png) no-repeat top left;
+	height: 274px;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	text-indent: -5000px;
+	top: 0px;
+	width: 194px;
+}
+
+* html #site-title {
+	behavior: url(iepngfix.htc);
+}
+
+#site-subtitle {
+	background: url(../images/title.gif) no-repeat top left;
+	height: 84px;
+	overflow: hidden;
+	position: absolute;
+	right: 0px;
+	text-indent: -5000px;
+	top: 43px;
+	width: 500px;
+}
+
+/*------------------------------
+ Navigation Elements
+------------------------------*/
+
+#sidebar .navigation {
+	background: url(../images/nav-bottom.gif) no-repeat bottom left;
+	margin-left: 30px;
+	padding-bottom: 5px;
+	width: 128px;
+}
+
+#sidebar .navigation li {
+	background: url(../images/nav-background.gif) repeat-y top left;
+	padding-bottom: 10px;
+	width: 128px;
+}
+
+#sidebar .navigation li a {
+	display: block;
+	height: 15px;
+	overflow: hidden;
+	text-indent: -5000px;
+	width: 128px;
+}
+
+#sidebar .navigation li.home { padding-top: 130px; }
+
+#sidebar .navigation li.home a { background: url(../images/nav-home.gif) no-repeat top left; }
+#sidebar .navigation li.about a { background: url(../images/nav-about.gif) no-repeat top left; }
+#sidebar .navigation li.rush a { background: url(../images/nav-rush.gif) no-repeat top left; }
+#sidebar .navigation li.fraters a { background: url(../images/nav-fraters.gif) no-repeat top left; }
+#sidebar .navigation li.alumni a { background: url(../images/nav-alumni.gif) no-repeat top left; }
+#sidebar .navigation li.photos a { background: url(../images/nav-photos.gif) no-repeat top left; }
+#sidebar .navigation li.lady-tekes a { background: url(../images/nav-lady-tekes.gif) no-repeat top left; }
+#sidebar .navigation li.donate a { background: url(../images/nav-donate.gif) no-repeat top left; }
+#sidebar .navigation li.contact a { background: url(../images/nav-contact.gif) no-repeat top left; }
+
+#sidebar .navigation li a:hover {
+	background-position: 0 -15px;
+}
+
+/*------------------------------
+ Banner Image
+------------------------------*/
+
+#banner-image {
+	background: url(../images/header-image-background.png) no-repeat top left;
+	height: 228px;
+	margin: 0 0 10px -4px;
+	padding: 8px;
+	width: 482px;
+}
+
+* html #banner-image {
+	behavior: url(iepngfix.htc);
+}
+
+/*------------------------------
+ Footer Elements
+------------------------------*/
+
+#footer .copyright {
+	color: #cccccc;
+	float: left;
+	height: 29px;
+	line-height: 29px;
+}
+
+#footer .developer {
+	color: #cccccc;
+	float: right;
+	height: 29px;
+	line-height: 29px;
+}
+
+#footer .developer a {
+	color: #cccccc;
+}
+
+/*------------------------------
+ Image Gallery
+------------------------------*/
+
+#photo {
+	left: 250px;
+	margin-left: 250px;
+	top: 220px;
+	right: 0px;
+	margin-top: 40px;
+	}
+
+
+#photo .title {
+	color: #858585;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#photo .gallery {
+	text-align: center;
+	width: 500px;
+	left: 0px;
+	margin-left: 0px;
+	top: 0px;
+	right: 0px;
+}
+
+#photo .box {
+	width: 250px;
+	float:left;
+}
